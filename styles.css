@@ -712,6 +712,10 @@ video {
   border-radius: 50px;
 }
 
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -761,6 +765,11 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-20 {
@@ -900,6 +909,16 @@ video {
   padding-bottom: 9rem;
 }
 
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .pb-12 {
   padding-bottom: 3rem;
 }
@@ -922,6 +941,30 @@ video {
 
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+.pl-10 {
+  padding-left: 2.5rem;
+}
+
+.pl-7 {
+  padding-left: 1.75rem;
+}
+
+.pl-8 {
+  padding-left: 2rem;
+}
+
+.pl-3 {
+  padding-left: 0.75rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
 }
 
 .text-center {
@@ -1008,6 +1051,22 @@ video {
 
 .tracking-\[0\.4rem\] {
   letter-spacing: 0.4rem;
+}
+
+.tracking-\[1rem\] {
+  letter-spacing: 1rem;
+}
+
+.tracking-\[0\.7rem\] {
+  letter-spacing: 0.7rem;
+}
+
+.tracking-\[0\.9rem\] {
+  letter-spacing: 0.9rem;
+}
+
+.tracking-\[0\.8rem\] {
+  letter-spacing: 0.8rem;
 }
 
 .text-\[\#1C1C1C\] {

@@ -5,7 +5,10 @@ module.exports = {
     extend: {
       backgroundImage:{
         bg_main: "url('asset/Background.svg')",
+        bg_login: "url('asset/Banner.jpg')",
         bg_cta: "url('asset/cta.svg')",
+        bg_services: "url('asset/services/banner.svg')",
+        bg_srvc: "url('asset/srvc.png')",
       },
       fontFamily: {
         Inter: "'Inter', sans-serif",
